@@ -16,8 +16,6 @@ export class Feedback extends Component {
     this.setState(prevState => ({
       [name]: prevState[name] + 1,
     }));
-    this.countTotalFeedback();
-    this.countPositiveFeedbackPercentage();
   };
 
   countTotalFeedback = () => {
